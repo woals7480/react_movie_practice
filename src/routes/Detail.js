@@ -23,7 +23,7 @@ function Detail() {
     <div>
       {loading ? (
         <div className={styles.detail_loading}>
-          <h1>Detail Loading</h1>
+          <p>Detail Loading</p>
         </div>
       ) : (
         <div className={styles.detail_wrapper}>
